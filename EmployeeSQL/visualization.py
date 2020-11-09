@@ -3,7 +3,7 @@
 #import sqlalchemy to connect to sql-challenge database
 from sqlalchemy import create_engine
 import sys
-credentialPath = '/Users/Owen/Desktop/DSV/_HW_Repos/sql-challenge/.gitignore'
+credentialPath = '/Users/Owen/Desktop/DSV/_HW_Repos/sql-challenge/'
 if credentialPath not in sys.path:
     sys.path.append(credentialPath)
 import pandas as pd
