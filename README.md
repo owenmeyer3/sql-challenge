@@ -7,6 +7,8 @@ This project imports, organizes, analyzes and visualizes data from a generic com
 
 * An ERD (Entity Relationship Diagram) is created for the 6 csv tables (quickdbdimage.png)
 
+![](EmployeeSQL/quickdbdimage.png)
+
 * A table is created for each of the six CSV files, specifying data types, primary keys, foreign keys, and other constraints in tables_schema.sql.
 
 * Each CSV file is imported into the corresponding SQL table in pgAdmin.

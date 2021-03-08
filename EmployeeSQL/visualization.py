@@ -23,6 +23,8 @@ query2 = '''
 
 #create and connect engine to connect to postgresql database
 pg_port = "5432"
+print(pg_user)
+print(pg_pwd)
 engine = create_engine(f'postgresql://{pg_user}:{pg_pwd}@localhost:{pg_port}/sql-challenge')
 try:
     connection = engine.connect()
